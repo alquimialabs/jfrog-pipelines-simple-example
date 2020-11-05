@@ -5,7 +5,4 @@ resources:
       gitProvider: githubTest
       path: alquimialabs/jfrog-pipelines-simple-example
       branches:
-        include: 
-          - master         
-          - feature/*
-          - fix/*
+        include: master
