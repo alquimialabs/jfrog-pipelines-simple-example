@@ -6,3 +6,9 @@ resources:
       path: alquimialabs/jfrog-pipelines-simple-example
       branches:
         include: master
+
+steps:
+  - name: entity-service_runCI
+    type: runCI
+    steps:
+      - OUT: jfrog-docker-registry
