@@ -1,0 +1,11 @@
+resources:
+  - name: myGitRepo
+    type: GitRepo
+    configuration:
+      gitProvider: githubTest
+      path: alquimialabs/jfrog-pipelines-simple-example
+      branches:
+        include: 
+          - master         
+          - feature/*
+          - fix/*
